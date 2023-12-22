@@ -179,10 +179,29 @@ body {
   font-size: 48px;
 }
 
-@media (width <= 460px) {
+@media (width <= 640px) {
   body {
     height: 94vh;
     margin: 2vh;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+  .shrink-border {
+    margin: 0 5px;
+    padding: 12px 24px;
+    font-size: 10px;
+  }
+
+  .heading1 {
+    font-size: 16px;
+  }
+
+  .number {
+    text-align: center;
+    font-size: 20px;
   }
 }
 
