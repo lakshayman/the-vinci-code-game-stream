@@ -127,6 +127,7 @@ body {
 }
 
 .input-box {
+  max-width: 90%;
   margin-bottom: 30px;
   position: relative;
 }
@@ -137,9 +138,9 @@ body {
   background: 0;
   border: 0;
   outline: none;
-  width: 80vw;
+  width: 100%;
   max-width: 500px;
-  font-size: 2em;
+  font-size: 36px;
   transition: padding .3s .2s;
 }
 
@@ -182,10 +183,6 @@ body {
   body {
     height: 94vh;
     margin: 2vh;
-  }
-
-  .input-box {
-    width: 50%;
   }
 }
 
